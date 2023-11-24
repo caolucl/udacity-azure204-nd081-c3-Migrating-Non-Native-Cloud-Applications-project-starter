@@ -1,0 +1,10 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/746679b2-2eac-48b8-904e-ada82a6116e8/resourceGroups/migrate-app-to-azure-rg/providers/Microsoft.Web/sites/techconf01",
+    "appService.deploySubpath": "web",
+    "azureFunctions.deploySubpath": "function\\notification",
+    "azureFunctions.scmDoBuildDuringDeployment": true,
+    "azureFunctions.projectLanguage": "Python",
+    "azureFunctions.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.projectLanguageModel": 2
+}

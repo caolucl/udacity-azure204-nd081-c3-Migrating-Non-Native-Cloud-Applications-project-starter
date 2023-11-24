@@ -63,9 +63,11 @@ Complete a month cost analysis of each Azure resource to give an estimate total 
 
 | Azure Resource | Service Tier | Monthly Cost |
 | ------------ | ------------ | ------------ |
-| *Azure Postgres Database* |     |              |
-| *Azure Service Bus*   |         |              |
-| ...                   |         |              |
+| *Azure Postgres Database* | Single Server - Basic - 1 vCore - 5GB   | 25.82             |
+| *Azure Service Bus*   | Basic - 10 Million    | 0.5             |
+| *Azure Web App*       | Basic B1        |              | 12.41
+| *Azure Function App*       | Consumption        | 4.4              |
+| *Total*       |         | 43.13             |
 
 ## Architecture Explanation
 This is a placeholder section where you can provide an explanation and reasoning for your architecture selection for both the Azure Web App and Azure Function.

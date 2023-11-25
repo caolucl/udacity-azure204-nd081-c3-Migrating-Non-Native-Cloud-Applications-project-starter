@@ -63,11 +63,11 @@ Complete a month cost analysis of each Azure resource to give an estimate total 
 
 | Azure Resource | Service Tier | Monthly Cost |
 | ------------ | ------------ | ------------ |
-| *Azure Postgres Database* | Single Server - Basic - 1 vCore - 5GB   | 25.82             |
-| *Azure Service Bus*   | Basic - 10 Million    | 0.5             |
-| *Azure Web App*       | Basic B1        | 12.41             | 
+| *Azure Postgres Database* | Flexible Server - General Purpose -D2dsv5 2 vCore-20GB   | 132.24             |
+| *Azure Service Bus*   | Standard - 10 Million    | 9.81             |
+| *Azure Web App*       | Premium P1V2        | 73.73             | 
 | *Azure Function App*       | Consumption        | 4.4              |
-| *Total*       |         | 43.13             |
+| *Total*       |         | 220.18             |
 
 ## Architecture Explanation
 The architecture for TechConf includes an Azure Web App which hosts the web application, an Azure Function App to handle notifications from an Azure Service Bus, and Azure Postgres Database. In addition, it also has azure storage account and application insighgts to monitor web app and function app.
